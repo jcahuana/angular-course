@@ -1,0 +1,10 @@
+.MainNavbar {
+  font-family: Oswald;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 5px solid #adb5bd;
+  padding-bottom: 10px;
+  &__search {
+    font-family: Karla;
+  }
+}

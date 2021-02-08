@@ -1,0 +1,19 @@
+.Brands {
+  padding: 40px 0;
+  font-family: Karla;
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  &__item {
+    margin: 0 auto;
+    padding: 20px 0;
+    img {
+      max-width: 100%;
+      width: auto;
+    }
+    p {
+      color: #a6c0c9;
+    }
+  }
+}
