@@ -6,4 +6,9 @@
     left: 0;
     bottom: 0;
   }
+  .carousel-indicators {
+    li.active {
+      background-color: #fff !important;
+    }
+  }
 }

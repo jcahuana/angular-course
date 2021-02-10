@@ -1,0 +1,11 @@
+$color_light: #c8d7e4;
+$color_gray: #919191;
+.Portfolio {
+  font-family: Karla;
+  h1 {
+    color: $color_light !important;
+    font-size: 2rem;
+    margin: 30px 0 30px 0;
+    font-weight: 400;
+  }
+}

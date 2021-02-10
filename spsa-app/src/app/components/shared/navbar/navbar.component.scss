@@ -2,9 +2,14 @@
   font-family: Oswald;
   font-weight: 600;
   text-transform: uppercase;
-  border-bottom: 5px solid #adb5bd;
+  border-bottom: 5px solid #41698d;
   padding-bottom: 10px;
   &__search {
     font-family: Karla;
+  }
+  li.active-link {
+    a {
+      color: #2671b4;
+    }
   }
 }

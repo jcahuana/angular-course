@@ -1,9 +1,12 @@
+$color_light: #c8d7e4;
+$color_gray: #919191;
 .Brands {
-  padding: 40px 0;
+  padding: 60px 0 40px 0;
   font-family: Karla;
-  &__title {
-    margin-top: 30px;
-    margin-bottom: 40px;
+  &__icon {
+    color: $color_gray !important;
+    text-align: center;
+    margin-bottom: 30px;
   }
   &__item {
     margin: 0 auto;
@@ -13,7 +16,7 @@
       width: auto;
     }
     p {
-      color: #a6c0c9;
+      color: $color_light;
     }
   }
 }
