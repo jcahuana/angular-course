@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "spsa-app": {
+    "spa-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/spsa-app",
+            "outputPath": "dist/spa-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,18 +75,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "spsa-app:build"
+            "browserTarget": "spa-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "spsa-app:build:production"
+              "browserTarget": "spa-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "spsa-app:build"
+            "browserTarget": "spa-app:build"
           }
         },
         "test": {
@@ -127,16 +127,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "spsa-app:serve"
+            "devServerTarget": "spa-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "spsa-app:serve:production"
+              "devServerTarget": "spa-app:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "spsa-app"
+  "defaultProject": "spa-app"
 }
